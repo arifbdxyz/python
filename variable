@@ -1,0 +1,14 @@
+# A name to store
+name =  "Md Arif"
+
+# A email to store
+email = "arif@example.com";
+
+# A city to store
+city = "Dhaka";
+
+# Displaying the variable's value
+
+print("My Name is: " + name)
+print("My Email: " + email)
+print("My City: " + email)
