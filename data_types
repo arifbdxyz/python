@@ -1,0 +1,43 @@
+name = "arif"
+print(type(name)) #output <class 'str'> 
+
+age = 33
+print(type(age)) #output <class 'int'> 
+
+height = 5.6
+print(type(height)) #output <class 'float'> 
+
+like = ['rice', 'fish', 'meat']
+print(type(like))  #output <class 'list'>
+
+love = ('rice', 'fish', 'meat')
+print(type(love)) #output <class 'tuple'>
+
+life = range(1, 33)
+print(type(life)) #output <class 'range'>
+
+info = {
+  'name' : 'arif',
+  'age' : 33,
+  'city' : 'dhaka'
+}
+print(type(info)) #output <class 'dict'>
+
+dinner = {'rice', 'fish', 'meat'}
+print(type(dinner)) #output <class 'set'>
+
+lunch = frozenset({'rice', 'fish', 'meat'})
+print(type(lunch)) #output <class 'frozenset'>
+
+password = 'abcd'
+secret = password.encode("utf-8")
+print(type(secret)) #output <class 'bytes'>
+
+convert = bytearray(1234)
+print(type(convert)) #output <class 'bytearray'>
+
+storage = memoryview(bytes(1234))
+print(type(storage)) #output <class 'memoryview'>
+
+company = None
+print(type(company)) #output <class 'NoneType'>
